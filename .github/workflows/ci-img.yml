@@ -26,6 +26,6 @@ jobs:
         with:
           image: my-bmi-img 
           registry: ghcr.io/samind2
-          username: ${{ github.actor }}
+          username: samind2
           password: ${{ secrets.GITHUB_TOKEN }}
           tags: ${{ env.TAG_NAME }}, latest
